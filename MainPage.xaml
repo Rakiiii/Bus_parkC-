@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="Bus_park.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Bus_park"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        
+        <StackPanel Grid.Row="0" >
+            <Rectangle Height="720" Width="1280" Fill="{StaticResource SystemControlBaseMediumLowAcrylicElementMediumBrush}" />
+            <Button  Style = "{StaticResource ButtonStyle}"  Content="Add Bus" Click="Add_Bus" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" >
+            <Rectangle Height="720" Width="1280" Fill="{StaticResource SystemControlBaseMediumLowAcrylicElementMediumBrush}" />
+            <Button Style = "{StaticResource ButtonStyle}" Content="Change Bus's position" Click="Change_Bus" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" >
+            <Rectangle Height="720" Width="1280" Fill="{StaticResource SystemControlBaseMediumLowAcrylicElementMediumBrush}" />
+            <Button Style = "{StaticResource ButtonStyle}" Content="Show information about buses" Click="Show_Info" />
+        </StackPanel>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+    </Grid>
+</Page>
