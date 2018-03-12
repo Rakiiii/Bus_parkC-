@@ -25,6 +25,7 @@ namespace Bus_park
         public MainPage()
         {
             this.InitializeComponent();
+           
         }
 
         //добовляем новый автобус

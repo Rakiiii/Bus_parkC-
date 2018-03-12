@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\smyrf\source\repos\Bus_park\Bus_park\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-04T11:05:47.616</Modified>
+      <Modified>2018-03-09T14:54:34.011</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\smyrf\source\repos\Bus_park\Bus_park\bin\x86\Debug\Bus_park.exe">
       <PackagePath>entrypoint\Bus_park.exe</PackagePath>
-      <Modified>2018-03-04T11:05:45.399</Modified>
+      <Modified>2018-03-09T14:54:32.904</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackagesFallback\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.0.6\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -735,7 +735,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smyrf\source\repos\Bus_park\Bus_park\bin\x86\Debug\Bus_park.xr.xml">
       <PackagePath>Bus_park.xr.xml</PackagePath>
-      <Modified>2018-03-04T11:05:44.845</Modified>
+      <Modified>2018-03-09T14:46:26.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -744,11 +744,11 @@
     <AppxPackagedFile Include="C:\Users\smyrf\source\repos\Bus_park\Bus_park\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-04T11:05:46.970</Modified>
+      <Modified>2018-03-09T14:54:33.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smyrf\source\repos\Bus_park\Bus_park\bin\x86\Debug\Core\Bus_park.exe">
       <PackagePath>Bus_park.exe</PackagePath>
-      <Modified>2018-03-04T11:05:47.601</Modified>
+      <Modified>2018-03-09T14:54:34.000</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

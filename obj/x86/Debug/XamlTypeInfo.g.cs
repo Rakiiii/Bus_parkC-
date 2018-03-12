@@ -180,15 +180,17 @@ namespace Bus_park.Bus_park_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
-            _typeNameTable[0] = "Bus_park.MainPage";
+            _typeNameTable = new string[4];
+            _typeNameTable[0] = "Bus_park.Bus";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "Bus_park.MainPage";
 
-            _typeTable = new global::System.Type[3];
-            _typeTable[0] = typeof(global::Bus_park.MainPage);
+            _typeTable = new global::System.Type[4];
+            _typeTable[0] = typeof(global::Bus_park.Bus);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::Bus_park.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -223,7 +225,8 @@ namespace Bus_park.Bus_park_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::Bus_park.MainPage(); }
+        private object Activate_0_Bus() { return new global::Bus_park.Bus(); }
+        private object Activate_3_MainPage() { return new global::Bus_park.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -235,9 +238,9 @@ namespace Bus_park.Bus_park_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Bus_park.MainPage
+            case 0:   //  Bus_park.Bus
                 userType = new global::Bus_park.Bus_park_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_0_Bus;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -248,6 +251,13 @@ namespace Bus_park.Bus_park_XamlTypeInfo
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::Bus_park.Bus_park_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  Bus_park.MainPage
+                userType = new global::Bus_park.Bus_park_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;
